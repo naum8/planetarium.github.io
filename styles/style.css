@@ -394,11 +394,11 @@ ul.button-auth-group {
    cursor: pointer;
  }
  #task-title {
-   width: 63%;
+   width: 60%;
    font-size: 20px;
  }
  #task-date {
-   width: 25%;
+   width: 26%;
    font-size: 20px;
    margin-left: 2%;
    background: rgba(255, 255, 255, 0.2);
