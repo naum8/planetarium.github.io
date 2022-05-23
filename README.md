@@ -1,1 +1,1 @@
-# planetarium.github.io/#main
+# https://naum8.github.io/planetarium.github.io/#main
