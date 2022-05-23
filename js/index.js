@@ -173,8 +173,8 @@ const mySPA = (function() {
             type.addEventListener(`change`, selectType);
             //if films link
             async function getLink() {
-            let url = `http://www.omdbapi.com/?s=${title.value}&type=${type.value}&page=${page}&apikey=3622d3e9`; 
-            let response =await fetch(url, {
+            let url = `https://www.omdbapi.com/?s=${title.value}&type=${type.value}&page=${page}&apikey=3622d3e9`; 
+            let response = await fetch(url, {
                method: `GET`,
             });
             console.log(response); // status Response
@@ -185,7 +185,7 @@ const mySPA = (function() {
             //films details 
             async function searchTitleHD(event) {
             if (event.target.innerHTML === `Details`) {
-               let url = `http://www.omdbapi.com/?i=${event.target.id}&apikey=3622d3e9`; 
+               let url = `https://www.omdbapi.com/?i=${event.target.id}&apikey=3622d3e9`; 
                let response = await fetch(url, {
                   method: `GET`,
                });
